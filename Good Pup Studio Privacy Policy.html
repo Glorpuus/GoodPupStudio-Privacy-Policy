@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Good Pup Studio Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Pixelify+Sans:wght@400;600&display=swap">
+<style>
+  /* Layout: one narrow column of pixel-bordered panels, like the game's own menus, on the game's backyard sky. */
+  :root{
+    --sky:#cfe3f1; --panel:#fff7e6; --panel-2:#e6d6b2; --ink:#2a1f2d; --ink-soft:#6a5964; --line:#2a1f2d; --accent:#2f8a7e; --grass:#6fae45;
+    --px:"Press Start 2P",ui-monospace,monospace; --body:"Pixelify Sans",ui-monospace,"Courier New",monospace;
+    --pxb:0 -3px 0 0 var(--line),0 3px 0 0 var(--line),-3px 0 0 0 var(--line),3px 0 0 0 var(--line);
+  }
+  @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--sky:#1d2440;--panel:#2b2433;--panel-2:#3c3346;--ink:#f3ead6;--ink-soft:#bfb2bd;--line:#0f0b14;--accent:#5cc2b2;--grass:#3f7a2e;color-scheme:dark}}
+  :root[data-theme="dark"]{--sky:#1d2440;--panel:#2b2433;--panel-2:#3c3346;--ink:#f3ead6;--ink-soft:#bfb2bd;--line:#0f0b14;--accent:#5cc2b2;--grass:#3f7a2e;color-scheme:dark}
+  html,body{min-height:100%}
+  body{margin:0}
+  body{background:var(--sky);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;padding-inline:16px;padding-block:28px 0}
+  .wrap{max-width:680px;margin:0 auto;display:grid;gap:22px;padding-bottom:40px}
+  header{display:grid;gap:10px;padding:6px 3px 4px}
+  h1{font-family:var(--px);font-size:clamp(16px,4.2vw,24px);line-height:1.5;margin:0;text-wrap:balance}
+  .sub{margin:0;color:var(--ink-soft)}
+  nav{display:flex;flex-wrap:wrap;gap:12px;padding:3px}
+  nav a{font-family:var(--px);font-size:10px;color:var(--ink);text-decoration:none;background:var(--panel);box-shadow:var(--pxb),inset 0 -3px 0 var(--panel-2);padding:9px 12px 11px}
+  nav a:hover,nav a:focus-visible{background:var(--panel-2)}
+  section{background:var(--panel);box-shadow:var(--pxb),inset 0 -4px 0 var(--panel-2);padding:20px 22px 22px;margin:3px;display:grid;gap:12px;min-width:0}
+  h2{font-family:var(--px);font-size:13px;line-height:1.6;margin:0;letter-spacing:.02em;color:var(--accent)}
+  h3{font-size:18px;font-weight:600;margin:6px 0 0}
+  p{margin:0;max-width:65ch}
+  ul{margin:0;padding-left:1.2em;display:grid;gap:6px}
+  .meta{font-size:15px;color:var(--ink-soft)}
+  .contact{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+  .addr{font-family:var(--px);font-size:11px;background:var(--sky);padding:10px 12px;box-shadow:var(--pxb);user-select:all;word-break:break-all}
+  dl{margin:0;display:grid;gap:14px}
+  dt{font-weight:600}
+  dd{margin:2px 0 0;color:var(--ink)}
+  .ground{height:22px;background:var(--grass);box-shadow:0 -3px 0 var(--line);margin-inline:-16px}
+  a{color:var(--accent)}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>Good Pup Studio</h1>
+    <p class="sub">Help and privacy for the pixel-art dog game on iPhone and iPad.</p>
+    <nav aria-label="Sections"><a href="#support">Support</a><a href="#privacy">Privacy policy</a></nav>
+  </header>
+
+  <section id="support" aria-labelledby="support-h">
+    <h2 id="support-h">Support</h2>
+    <p>Questions, bugs or ideas? Email us and include your device model and iOS version if something isn't working.</p>
+    <div class="contact"><span class="addr" id="email">lukerobc999@gmail.com</span></div>
+    <dl>
+      <div><dt>How do I save my game?</dt><dd>You don't need to. Your pup, coins, bones, items and friendships save automatically on your device.</dd></div>
+      <div><dt>Will deleting the app erase my progress?</dt><dd>Yes. Progress is stored only on your device, so deleting the app removes it. There are no accounts or cloud saves.</dd></div>
+      <div><dt>How do I earn bones?</dt><dd>Grab bones in Hurdle Dash (plus a bonus bone every 250 m), dig them up in Treasure Hunt, and finish all three daily tasks for 2 more.</dd></div>
+      <div><dt>When does the Daily shop change?</dt><dd>Every night at midnight, your local time. Anything you buy stays yours after it leaves the shop.</dd></div>
+      <div><dt>How do I unlock friend gifts?</dt><dd>Play with the regulars at the dog park. When you reach 3 hearts with a pup, they give you a matching item. Each pup has a favorite activity that builds friendship twice as fast.</dd></div>
+      <div><dt>Can I play upright?</dt><dd>The game plays in landscape so you can see the whole room, yard and park.</dd></div>
+    </dl>
+  </section>
+
+  <section id="privacy" aria-labelledby="privacy-h">
+    <h2 id="privacy-h">Privacy policy</h2>
+    <p class="meta">Effective October 5, 2026</p>
+    <p>Good Pup Studio does not collect, store or share any personal information.</p>
+    <h3>What the app stores</h3>
+    <p>Your game progress (your pup's name, breed and coat, needs, coins, bones, items, tasks and park friendships) is saved only on your device. It never leaves your device and we can't see it.</p>
+    <h3>What the app does not do</h3>
+    <ul>
+      <li>No accounts or sign-in</li>
+      <li>No analytics, crash reporting or tracking</li>
+      <li>No advertising</li>
+      <li>No third-party services; the app works fully offline</li>
+      <li>No access to your contacts, photos, location, camera or microphone</li>
+    </ul>
+    <h3>Children</h3>
+    <p>The game is suitable for all ages. Because it collects no personal information, it collects none from children.</p>
+    <h3>Purchases</h3>
+    <p>This version has no in-app purchases. If optional purchases are added later, Apple will process them and we will never receive your payment details. This policy will be updated before that happens.</p>
+    <h3>Changes and contact</h3>
+    <p>If this policy changes, the new version will be posted on this page with a new effective date. Questions about privacy can go to the support email above.</p>
+  </section>
+</div>
+<div class="ground" aria-hidden="true"></div>
+
+</body>
+</html>
